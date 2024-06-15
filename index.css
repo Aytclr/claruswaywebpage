@@ -12,7 +12,6 @@
   src: url(./font/Sometime.otf);
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +26,7 @@ body {
   box-shadow: 10px 10px 40px;
 }
 
-.header1{
+.header1 {
   padding: 20px;
   /* border: 10px solid  brown; */
   padding: 2rem;
@@ -40,14 +39,11 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: space-evenly;
-
 }
-.claruslogo{
+.claruslogo {
   width: 45px;
-
 }
 .manu-ul {
-
   display: flex;
   justify-content: space-evenly;
   /* border: 2px solid red; */
@@ -60,11 +56,10 @@ body {
   /* width: 15rem;
   height: 2rem; */
   margin-right: 2rem;
-  font-family:"geoplace" ;
+  font-family: "geoplace";
   margin: auto;
   padding: 10px;
   margin-right: 20px;
-  
 }
 
 .main1 {
@@ -106,7 +101,6 @@ body {
   background-size: cover;
   border-radius: 5rem;
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
-  
 }
 .box4 {
   width: 15%;
@@ -127,10 +121,10 @@ body {
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
   padding: 50px;
 }
-.textcours{
+.textcours {
   color: white;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -138,14 +132,13 @@ body {
   border-radius: 15px;
   background-color: transparent;
   color: rgb(255, 210, 210);
-  font-family:"geoplace";
+  font-family: "geoplace";
   font-size: 25px;
-
 
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px ; 
+  height: 200px;
   /* border: 1px solid #000; */
 }
 
