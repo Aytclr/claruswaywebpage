@@ -21,7 +21,7 @@
 body {
   /* width: 100vw;
   height: 100vw; */
-  /* background-image: url(./img/6804339-01.png); */
+  background-image: url(./img/white-backroom-many-ways-empty-labyrinth-ai-generative.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 10px 10px 40px;
@@ -29,11 +29,12 @@ body {
 
 .header1{
   padding: 20px;
-  border: 10px solid  brown;
+  /* border: 10px solid  brown; */
   padding: 2rem;
 }
 .header-header {
-  border: 2px solid rgb(208, 255, 0);
+  /* border: 2px solid rgb(208, 255, 0); */
+  background-color: rgba(255, 255, 255, 0.226);
   backdrop-filter: blur(3px);
   border-radius: 10rem;
   padding: 2rem;
@@ -41,20 +42,29 @@ body {
   justify-content: space-evenly;
 
 }
+.claruslogo{
+  width: 45px;
 
+}
 .manu-ul {
 
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .manu-ul li {
   list-style: none;
   border: 1px solid orange;
-  width: 15rem;
-  height: 2rem;
+  border-radius: 15px;
+  /* width: 15rem;
+  height: 2rem; */
   margin-right: 2rem;
+  font-family:"geoplace" ;
+  margin: auto;
+  padding: 10px;
+  margin-right: 20px;
+  
 }
 
 .main1 {
@@ -66,42 +76,44 @@ body {
   align-items: center;
 }
 .box1 {
-  background-color: crimson;
   width: 15%;
   height: 60%;
   margin-right: 2rem;
-  background-image: url(./img/data-center-operation-with-highperformance-networking-gear.jpg);
+  background-image: url(./img/cloud-storage-background-remixed-from-public-domain-by-nasa.jpg);
+  background-position: -160px;
   background-size: cover;
   border-radius: 5rem;
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
 }
 .box2 {
-  background-color: cadetblue;
   width: 15%;
   height: 60%;
   margin-right: 2rem;
-  background-image: url(./img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-busines-global-network-futuristic-technology-background-ai-generative.jpg);
+  background-image: url(./img/programming-background-with-person-working-with-codes-computer.jpg);
+  background-position: -80px;
   background-size: cover;
-  border-radius: 5rem;
-  bbox-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
-}
-
-.box3 {
-  background-color: orange;
-  width: 15%;
-  height: 60%;
-  margin-right: 2rem;
-  background-image: url(./img/data-center-operation-with-highperformance-networking-gear.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 5rem;
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
 }
-.box4 {
-  background-color: rgb(255, 81, 0);
+
+.box3 {
   width: 15%;
   height: 60%;
   margin-right: 2rem;
-  background-image: url(./img/data-server-racks-hub-room-with-big-data-computer-center-blue-interior-hosting-storage-hardware.jpg);
+  background-image: url(./img/html-css-collage-concept.jpg);
+  background-position: -140px;
+  background-size: cover;
+  border-radius: 5rem;
+  box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
+  
+}
+.box4 {
+  width: 15%;
+  height: 60%;
+  margin-right: 2rem;
+  background-image: url(./img/rpa-concept-with-blurry-hand-touching-screen.jpg);
+  background-position: -70px;
   background-size: cover;
   border-radius: 5rem;
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
@@ -109,33 +121,42 @@ body {
 .box5 {
   width: 15%;
   height: 60%;
-  background-image: url(./img/data-center-operation-with-highperformance-networking-gear.jpg);
+  background-image: url(./img/data-server-racks-hub-room-with-big-data-computer-center-blue-interior-hosting-storage-hardware.jpg);
   background-size: cover;
   border-radius: 5rem;
   box-shadow: 10px 10px 40px rgba(32, 32, 32, 0.651);
-  padding: 10px;
-
+  padding: 50px;
+}
+.textcours{
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
-
 .web3co {
-  width: 150px;
-  height:45px;
-  border: 2px solid red;
   border-radius: 15px;
-  background-color: white;
-  color: black;
-  font-family:"sometime";
-  font-size: 25px;  
-  padding: 2px;
-  list-style: none;
+  background-color: transparent;
+  color: rgb(255, 210, 210);
+  font-family:"geoplace";
+  font-size: 25px;
 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px ; 
+  /* border: 1px solid #000; */
 }
 
+.box1:hover {
+  width: 20%;
+  height: 90%;
+}
+.box2:hover {
+  width: 20%;
+  height: 90%;
+}
 .box3:hover {
   width: 20%;
   height: 90%;
