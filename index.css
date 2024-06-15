@@ -1,22 +1,49 @@
+@font-face {
+  font-family: "geoplace";
+  src: url(./font/GeoplaceSC-Regular.ttf);
+}
+
+@font-face {
+  font-family: "remachine";
+  src: url(./font/RemachineScript_Personal_Use.ttf);
+}
+@font-face {
+  font-family: "sometime";
+  src: url(./font/Sometime.otf);
+}
+
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
-  background-image: url(./img/68043391816127.jpg);
+  /* width: 100vw;
+  height: 100vw; */
+  /* background-image: url(./img/6804339-01.png); */
   background-size: cover;
+  background-repeat: no-repeat;
   box-shadow: 10px 10px 40px;
 }
-.header1 {
-  border: 2px solid red;
+
+.header1{
+  padding: 20px;
+  border: 10px solid  brown;
+  padding: 2rem;
+}
+.header-header {
+  border: 2px solid rgb(208, 255, 0);
+  backdrop-filter: blur(3px);
+  border-radius: 10rem;
   padding: 2rem;
   display: flex;
   justify-content: space-evenly;
+
 }
 
 .manu-ul {
-  /* width: 10rem; */
+
   display: flex;
   justify-content: space-evenly;
   border: 2px solid red;
@@ -31,7 +58,7 @@ body {
 }
 
 .main1 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   height: 800px;
   display: flex;
@@ -96,8 +123,17 @@ body {
 }
 
 .web3co {
+  width: 150px;
+  height:45px;
   border: 2px solid red;
+  border-radius: 15px;
   background-color: white;
+  color: black;
+  font-family:"sometime";
+  font-size: 25px;  
+  padding: 2px;
+  list-style: none;
+
 }
 
 .box3:hover {
